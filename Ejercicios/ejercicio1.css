@@ -1,0 +1,36 @@
+.btn{
+border: none;
+color: white;
+padding: 14px 28px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.btn-primary {background-color: #202cd6;}
+.btn-primary:hover {background-color: #2818da;}
+
+.btn-secondary {background-color: #818481;}
+.btn-secondary:hover {background-color: #676867;}
+
+.btn-success {background-color: #5fc05f;}
+.btn-success:hover {background-color: #46a049;}
+
+.btn-info {background-color: #1cc4de;}
+.btn-info:hover {background-color: #25b5d2;}
+
+.btn-warning {background-color: #dedb1c;}
+.btn-warning:hover {background-color: #d2cf25;}
+
+.btn-danger {background-color: #ee310f;}
+.btn-danger:hover {background-color: #d22525;}
+
+.btn-light {background-color: rgb(234, 234, 234);color:#0a0909;}
+.btn-light:hover {background-color: rgb(222, 220, 220);}
+
+.btn-dark {background-color: #060605db;}
+.btn-dark:hover {background-color: #0a0909;}
+
+.btn-link {background-color: #ffffffdb;color:#0a0909;}
+.btn-link:hover {background-color: #fffefe;}
+
+

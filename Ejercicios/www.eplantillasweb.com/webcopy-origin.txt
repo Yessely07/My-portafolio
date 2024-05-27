@@ -1,0 +1,44 @@
+Uri: https://www.eplantillasweb.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\cdn-cgi\scripts\7d0fa10a\cloudflare-static\rocket-loader.min.js
+Content Type: application/javascript
+
+Uri: https://www.eplantillasweb.com/css/main.css
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\css\main.css
+Content Type: text/css
+
+Uri: https://www.eplantillasweb.com/fonts/font-awesome-4.6.3/css/font-awesome.min.css
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\fonts\font-awesome-4.6.3\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://www.eplantillasweb.com/img/favicon.png
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\img\favicon.png
+Content Type: image/png
+
+Uri: https://www.eplantillasweb.com/img/logo-cart-2.png
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\img\logo-cart-2.png
+Content Type: image/png
+
+Uri: https://www.eplantillasweb.com/img/logo-small.png
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\img\logo-small.png
+Content Type: image/png
+
+Uri: https://www.eplantillasweb.com/live/
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\live\index.htm
+Content Type: text/html
+
+Uri: https://www.eplantillasweb.com/scripts/get-data-frame.js
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\scripts\get-data-frame.js
+Content Type: application/javascript
+
+Uri: https://www.eplantillasweb.com/vendor/bootstrap-3.2.0-dist/css/bootstrap.min.css
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\vendor\bootstrap-3.2.0-dist\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://www.eplantillasweb.com/vendor/bootstrap-3.2.0-dist/js/bootstrap.min.js
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\vendor\bootstrap-3.2.0-dist\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://www.eplantillasweb.com/vendor/jquery.min.js
+File Name: C:\Users\USUARIO\Documents\NOVENO SEMESTRE\DESARROLLO DE APLICACIONES WEB\Semana04\www.eplantillasweb.com\vendor\jquery.min.js
+Content Type: application/javascript
+

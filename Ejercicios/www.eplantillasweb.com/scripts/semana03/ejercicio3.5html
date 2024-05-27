@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título de la Página</title>
+  <!-- Enlace al archivo CSS de Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos CSS personalizados -->
+  <style>
+    /* Estilos personalizados aquí */
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sobre Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="jumbotron text-center">
+  <h1 class="display-4">Título Principal</h1>
+  <p class="lead">Subtítulo o descripción corta.</p>
+  <a href="#" class="btn btn-primary">Botón Principal</a>
+</section>
+
+<!-- Content Section -->
+<section class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="imagen1.jpg" class="img-fluid" alt="Imagen 1">
+    </div>
+    <div class="col-md-6">
+      <h2>Título de la Sección</h2>
+      <p>Descripción de la sección.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 order-md-2">
+      <img src="imagen2.jpg" class="img-fluid" alt="Imagen 2">
+    </div>
+    <div class="col-md-6 order-md-1">
+      <h2>Título de la Sección</h2>
+      <p>Descripción de la sección.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-light text-center py-4">
+  <p>Derechos de Autor &copy; 2024 | Nombre de tu Empresa</p>
+</footer>
+
+<!-- Enlaces a archivos JS de Bootstrap y jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

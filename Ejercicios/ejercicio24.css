@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #df80f9;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 10px; /* Espaciado entre header y sidebar */
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px; /* Espaciado entre filas y columnas */
+    flex-direction: column;
+   
+}
+
+.sidebar {
+    background-color: #f0e474;
+    padding: 20px;
+}
+.sidebar {
+    background-color: #f5de6c;
+    padding: 20px;
+    margin-bottom: 10px; /* Espaciado entre la barra lateral y la siguiente fila */
+}
+
+/* O */
+
+.container > div:nth-child(3) {
+    margin-top: 10px; /* Espaciado entre la barra lateral y la siguiente fila */
+}
+.widget, .content, .statistics {
+    padding: 20px;
+   
+    border: 1px solid #ccc;
+    margin-top: 10px; /* Espaciado entre la barra lateral y la siguiente fila */
+}
+.widget {
+    
+    background-color: #f0b379; /* Color de fondo */ 
+}
+ .content {
+    
+    background-color: #a1f079; /* Color de fondo */  
+}
+.statistics {
+    background-color: #79eaf0; /* Color de fondo */ 
+    
+    align-items: stretch; /* Estirar las columnas para que tengan la misma altura */
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 10px; /* Espacio entre statistics y footer */
+}
+header, footer {
+    text-align: center; /* Centrar los elementos header y footer */
+}
+
+.widget h2,
+.content h2,
+.statistics h2 {
+    text-align: center; /* Centrar el texto en las filas */
+}
+
+/* Media queries para diseño responsivo */
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: auto; /* Cambia a una columna en dispositivos móviles */
+    }
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (min-width: 768px) {
+    .menu-btn {
+        display: none; /* Oculta el botón de menú en dispositivos más grandes */
+    }
+
+    .sidebar {
+        display: none; /* Oculta el menú lateral en dispositivos más grandes */
+    }
+}
+
+
+
+/* Estilos para el botón de menú en dispositivos móviles */
+.menu-btn {
+    position: absolute;
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    right: 20px; /* Ajusta la distancia desde la derecha */
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #333; /* Color del botón */
+    z-index: 999; /* Asegura que esté por encima del contenido */
+}
+
+/* Estilos para el menú lateral en dispositivos móviles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #fff; /* Color de fondo del menú */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra del menú */
+    z-index: 998; /* Asegura que esté por encima del contenido pero detrás del botón */
+    display: none; /* Oculta el menú lateral por defecto */
+}
+
+.sidebar.active {
+    display: block; /* Muestra el menú cuando está activo */
+}
+.options {
+    display: none; /* Oculta las opciones por defecto */
+}
+
+.options.show {
+    display: block; /* Muestra las opciones cuando la clase 'show' está presente */
+}

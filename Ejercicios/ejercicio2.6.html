@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar con Modos de Visualización</title>
+    <link rel="stylesheet" href="ejercicio2.6.6.css" />
+    <!-- Font Awesome para iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h3>Collapsible</h3>
+      </div>
+
+      <ul class="menu">
+        <li>
+          <a href="#"
+            ><i class="fas fa-home"></i><span class="menu-text">Home</span></a
+          >
+          <ul class="submenu" id="inicioSubmenu">
+            <li><a href="#"><i class="fas fa-sing-out-alt"></i>Overview</a></li>
+            <li><a href="#">Updates</a></li>
+            <li><a href="#">Reports</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fas fa-user"></i
+            ><span class="menu-text">Dashboard</span></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fas fa-cog"></i><span class="menu-text">Orders</span></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fas fa-sign-out-alt"></i
+            ><span class="menu-text">Account</span></a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <button onclick="toggleSidebar()">Boton Cambiar</button>
+    </div>
+
+    <script src="ejercicio2.6.6.js"></script>
+  </body>
+</html>

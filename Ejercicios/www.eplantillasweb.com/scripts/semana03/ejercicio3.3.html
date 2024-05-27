@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrícula con CSS Puro</title>
+    <style>
+/* Estilos generales de la cuadrícula */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+    
+}
+
+/* Estilos para las columnas individuales */
+.columna {
+    background-color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Ajustes de ancho de columna para diferentes tamaños de pantalla */
+@media (min-width: 1400px) {  /* Pantallas XXL */
+    .contenedor {
+        grid-template-columns: repeat(12, 1fr); /* 12 columnas por fila */
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1199px) {  /* Pantallas XL */
+    .contenedor {
+        grid-template-columns: repeat(12, 1fr); /* 12 columnas por fila */
+    }
+}
+@media (max-width: 992px) {  /* Pantallas LG */
+    .contenedor {
+        grid-template-columns: repeat(6, 1fr); /* 6 columnas por fila */
+    }
+}
+
+@media (max-width: 768px) {  /* Pantallas MD */
+    .contenedor {
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas por fila */
+    }
+}
+
+@media (max-width: 576px ) {  /* Pantallas SM */
+    .contenedor {
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila */
+    }
+}
+
+
+        /* Estilos para las columnas individuales */
+        .columna {
+            background-color: #ccc; /* Color de fondo base */
+            text-align: center; /* Alinear el contenido en el centro */
+            padding: 20px;
+            font-size: 16px;
+        }
+
+        /* Colores para cada columna */
+        .columna-1 { background-color: aquamarine; }
+        .columna-2 { background-color: red; }
+        .columna-3 { background-color: green; }
+        .columna-4 { background-color: #39e43b; }
+        .columna-5 { background-color: #808000; }
+        .columna-6 { background-color: #004080; }
+        .columna-7 { background-color: #800080; }
+        .columna-8 { background-color: #800022; }
+        .columna-9 { background-color: #804b00; }
+        .columna-10 { background-color: #005680; }
+        .columna-11 { background-color: #e3ce2f; }
+        .columna-12 { background-color: #c0c0c0; }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="columna columna-1">1</div>
+        <div class="columna columna-2">2</div>
+        <div class="columna columna-3">3</div>
+        <div class="columna columna-4">4</div>
+        <div class="columna columna-5">5</div>
+        <div class="columna columna-6">6</div>
+        <div class="columna columna-7">7</div>
+        <div class="columna columna-8">8</div>
+        <div class="columna columna-9">9</div>
+        <div class="columna columna-10">10</div>
+        <div class="columna columna-11">11</div>
+        <div class="columna columna-12">12</div>
+    </div>
+</body>
+</html>

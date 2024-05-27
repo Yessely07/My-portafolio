@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Template portafolio desarrollador UI/UX " />
+    <title> My Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="primeflex.css">
+    <link rel="stylesheet" href="https://fonts.adobe.com/fonts/hyperspace-race-variable#fonts-section">
+    <link rel="stylesheet" href="https://unpkg.com/primeflex@^3/primeflex.css">
+    <link rel="stylesheet" href="https://unpkg.com/primeflex/themes/saga-blue.css">
+    <script src="https://kit.fontawesome.com/b3f17f1dac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+           
+
+            <input type="checkbox" aria-label="Checkbox para mostrar y quitar hamburger menu"
+                class="checkbox xl:hidden">
+            <div class="hamburger__lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <div class="header__info flex align-items-center gap-3">
+                <ul class="flex flex-column xl:flex-row list-none">
+                    <li onclick="scrollToSection('about')" style="color: black; font-weight: bold; font-size: 20px;">Sobre mí</li>
+                    <li onclick="scrollToSection('services')" style="color: black; font-weight: bold; font-size: 20px;">Introducción</li>
+                    <li onclick="scrollToSection('portfolio')" style="color: black; font-weight: bold; font-size: 20px;">Trabajos</li>
+                    <li onclick="scrollToSection('contact')" style="color: black; font-weight: bold; font-size: 20px;">Contacto</li>
+                </ul>
+                <div class="hireMe__button pt-4">
+                    <a href="mailTo:pwrf2001@gmail.com" aria-label="Enviar mensaje al correo"
+                        class="cursor-pointer no-underline border-round-lg text-xl xl:text-sm">Contenido</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--HOME PAGE -->
+    <div class="container">
+        <section id="home"
+            class="home__page flex align-items-center justify-content-center xl\:justify-content-between grid grid-nogutter gap-4">
+            <div class="left__content col-12 xl:col-6">
+                <div class="message__bubble triangle mb-4 md:mb-2">
+                    <div class="message__text p-2 sm:p-3 text-center">
+                        <p></p>
+                    </div>
+                </div>
+                <h1 class="text-3xl sm:text-5xl md:text-7xl" style="color: rgb(0, 0, 0);">PORTAFOLIO ELECTRÓNICO DESARROLLO WEB</h1>
+                <p class="text-gray-500"> 
+                <span style="color: black;">Estudiante de la Facultad de Ingeniería de Sistemas</span>
+                </p>
+
+                <div class="home__buttons flex align-items-center gap-2 mt-6">
+                    <a href="./assets/CV -Yenly.pdf" aria-label="Descargar curriculum"
+                    
+                        class="cursor-pointer border-round-lg no-underline" download>Descargar CV</a>
+                    <button onclick="scrollToSection('portfolio')" aria-label="Deslizar a sección portafolio para mostrar mis trabajos"
+                        class="cursor-pointer border-round-lg">Mi trabajo</button>
+                        
+                </div>
+            </div>
+            <div class="right__content col-9 sm:col-6 xl:col-5">
+                <img src="./assets/FOTO1.jpg" alt="Foto perfil" width="100" height="100">
+                
+            </div>
+        </section>
+        <!--ABOUT ME-->
+        <section id="about" class="about__me w-full min-h-screen flex align-items-center">
+            <div class="aboutMe__content min-h-full flex flex-column md:flex-row pt-8 md:pt-0">
+                <div class="aboutMe__info col-12 md:col-6 md:pr-6 pt-0">
+                    <hr class="custom-hr">
+                    <h1 class="text-3xl md:text-5xl" style="color: rgb(77, 241, 77);">Sobre mí</h1>
+
+                    <p class="text-gray-500">
+                        <span style="color: black ; text-align: justify;font-style: italic;">Soy estudiante del noveno semestre de la Facultad de Ingeniería de Sistemas de la Universidad Nacional del Centro del Perú, mis intereses son diseño y desarrollo web.</span>
+                    </p>
+                    <div class="knowledge flex flex-column gap-3 mt-5">
+                        <p><strong style="color: black;">Nombre:</strong> <span style="color: black;">Yenly Aliaga Huatuco</span></p>
+                        <div class="progress__bar progress__wordpress">
+                            <span></span>
+                        </div>
+                        
+                        <p><strong style="color: black;">Teléfono:</strong> <span style="color: black;">904272521</span></p>
+                        <div class="progress__bar progress__angular">
+                            <span></span>
+                        </div>
+                        <p><strong style="color: black;">Correo:</strong> <span style="color: black;">Yenly.aliaga@gmail.com</span></p>
+                        <div class="progress__bar progress__reactJs">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="hireMe__button pt-4">
+                        <a href="yenly.aliaga@gmail.com" aria-label="Enviar mensaje al correo"
+                            class="cursor-pointer no-underline border-round-lg">Contratame</a>
+                    </div>
+<!-- LA FOTO 2 -->
+             </div>
+                <div class="image col p-0 mt-6 md:mt-0">
+                    <img src="./assets/Foto2_4.jpeg" alt="Foto relacionado a acerca de mí" width="100" height="0" style="border-radius: 0;">
+                    
+                </div>
+            </div> 
+            
+            
+        </section>
+    </div>
+    <!--FREE LANCER SECTION -->
+    <section class="freelancer mb-4 mt-4 min-w-full flex flex-column justify-content-center align-items-center">
+        <p class="text-sm">¿Tienes alguna duda sobre el desarrollo de aplicaciones web?</p>
+        <h1 class="text-center">Estoy disponible para aclarar tus dudas </h1>
+        <div class="hireMe__button pt-4">
+            <a href="https://wa.me/904272521" aria-label="Enviar mensaje al correo"
+                class="cursor-pointer no-underline border-round-lg">Escríbeme</a>
+        </div>
+    </section>
+    <!--SERVICES -->
+    <div class="container">
+        <section id="services" class="services min-h-full w-full pb-7">
+            <div class="services__title flex flex-column gap-3 text-center">
+                <h1 class="text-3xl md:text-5xl"><span style="color: rgb(248, 69, 98);">Introducción</h1>
+                <p class="text-gray-400 text-sm md:text-base">
+                    <span style="color: black; font-style: italic;">¡Hola! Me llamo Yenly Aliaga Huatuco y este es mi portafolio electrónico. Durante 7 semanas, me he sumergido en el fascinante mundo del desarrollo web, explorando desde los fundamentos hasta técnicas avanzadas. Aquí encontrarás una colección de proyectos que reflejan mi aprendizaje y crecimiento. Cada semana, actualizo mi portafolio con nuevos trabajos y reflexiones detalladas sobre mi experiencia. Mi objetivo es crear un espacio dinámico que muestre mi dedicación y pasión por el desarrollo web. Gracias por visitar y espero que encuentres inspiración en mi trabajo.Bienvenidos a mi viaje de aprendizaje en el desarrollo web!</span>
+                </p>
+            </div>
+            <div class="services__card w-full grid grid-nogutter mt-7 gap-5">
+                <div class="card flex align-items-center col-12 sm:col-6 lg:col-4 gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="service__name">
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div class="card flex align-items-center col-12 sm:col lg:col-4 gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <i class="fa-brands fa-css"></i>
+                    </div>
+                    <div class="service__name">
+                        <p>CSS</p>
+                    </div>
+                </div>
+                <div class="card flex align-items-center col-12 sm:col-6 md:col-3 lg:col gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <i class="fa-brands fa-angular"></i>
+                    </div>
+                    <div class="service__name">
+                        <p>Angular</p>
+                    </div>
+                </div>
+                <div class="card flex align-items-center col-12 sm:col md:col lg:col-4 gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="service__name">
+                        <p>React Js</p>
+                    </div>
+                </div>
+                <div class="card flex align-items-center col-12 sm:col-6 md:col-4 lg:col-4 gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="service__name">
+                        <p>Desarrollo Móvil</p>
+                    </div>
+                </div>
+                <div class="card flex align-items-center col-12 sm:col md:col-4 lg:col gap-3 p-2">
+                    <div class="service__logo flex align-items-center justify-content-center ">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="service__name">
+                        <p>Desarrollo web</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--PORTFOLIO -->
+        <section id="portfolio" class="portfolio min-h-full w-full pb-8 pt-8">
+            <div class="portfolio__title flex flex-column gap-3 text-center">
+                <hr class="custom1-hr">
+                <h1 class="text-3xl md:text-5xl" style="color : rgb(226, 67, 241);">Mis trabajos</h1>
+                <hr class="custom1-hr">
+                <p class="text-gray-400 text-sm md:text-base">
+                    
+                </p>
+            </div>
+            <div class="portfolio__gallery">
+                <div class="gallery__categories mb-5 mt-5">
+                    <ul class="flex list-none flex-wrap justify-content-center gap-3">
+                        <li class="filter-item" data-filter="semana1" style="color: blue; font-weight: bold; font-size: 20px; font-family: 'Arial', sans-serif;">Todos</li>
+                        <li class="filter-item" data-filter="semana1" style="color: blue; font-weight: bold; font-size: 20px; font-family: 'Arial', sans-serif;">Semana 1</li>
+                        <li class="filter-item" data-filter="semana1" style="color: blue; font-weight: bold; font-size: 20px; font-family: 'Arial', sans-serif;">Semana 2</li>
+                        <li class="filter-item" data-filter="semana1" style="color: blue; font-weight: bold; font-size: 20px; font-family: 'Arial', sans-serif;">Semana 3</li>
+                        <li class="filter-item" data-filter="semana1" style="color: blue; font-weight: bold; font-size: 20px; font-family: 'Arial', sans-serif;">Semana 4</li>
+                        <li class="filter-item" data-filter="semana1" style="color: blue; font-weight: bold; font-size: 20px; font-family: 'Arial', sans-serif;">Semana 5</li>
+                        <li class="filter-item" data-filter="semana1" style="color: blue; font-weight: bold; font-size: 20px; font-family: 'Arial', sans-serif;">Semana 6</li>
+
+                    </ul>
+                </div>
+                <div class="proyect__gallery flex justify-content-center align-items-center flex-wrap gap-3">
+                    <div class="project__card semana1">
+                        <img src="./assets/FOTO3.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div
+                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                            <h2>Semana 1</h2>
+                            <a href="./trabajos/Semana1.html"><span><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project__card semana2">
+                        <img src="./assets/FOTO4.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div
+                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                            <h2>Semana 2</h2>
+                            <a href="./trabajos/Semana2.html"><span><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project__card semana3">
+                        <img src="./assets/FOTO5.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div
+                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                            <h2>Semana 3</h2>
+                            <a href="./trabajos/Semana3.html"><span><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project__card semana4">
+                        <img src="./assets/FOTO6.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div
+                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                            <h2>Semana 4</h2>
+                            <a href="./trabajos/Semana4.html"><span><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project__card semana5">
+                        <img src="./assets/FOTO7.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div
+                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                            <h2>Semana 5</h2>
+                            <a href="./trabajos/Semana5.html"><span><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project__card semana6">
+                        <img src="./assets/FOTO8.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div
+                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                            <h2>Semana 6</h2>
+                            <a href="./trabajos/Semana6.html"><span><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </section>
+        <!--FOOTER -->
+        <footer id="contact" class="min-h-full w-full flex grid col-12 justify-content-center pb-8 pt-8 lg:text-center">
+            <div class="social__media col-12 md:col-4 flex flex-column justify-content-between">
+                <h3>Redes sociales</h3>
+                <p>Innovando</p>
+                <p>Desarrollo lo que necesitas, con un enfoque en usabilidad y rendimiento</p>
+                <div class="social__mediaIcons mt-5 flex lg:justify-content-center gap-3">
+                    <a href="https://www.facebook.com/profile.php?id=100075034346524" target="_blank" aria-label="Ir a facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/yenly_aliaga/" target="_blank" aria-label="Ir a instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" aria-label="Ir a linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact col-12 sm:col-6 sm:pt-0 md:pt-2 md:col-4 flex flex-column justify-content-between md:align-items-center">
+                <h3>Contacto</h3>
+                <div class="phone__number flex align-items-center gap-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+51 904272521</p>
+                </div>
+                <div class="email flex align-items-center gap-2">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>yenly.aliaga@gmail.com</p>
+                </div>
+                <a href="Yenly.aliaga@gmail.com"
+                    class="cursor-pointer text-center col-4 sm:col-6 xl:col-4 mt-3 no-underline border-round-lg">
+                    <span>
+                        <i class="fa-solid fa-message"></i>
+                    </span>Escríbeme
+                </a>
+            </div>
+            <div class="my__services col-12 sm:col-6 sm:p-0 md:col-4 md:pt-2 md:align-items-center flex flex-column justify-content-between">
+                <h3>Conocimientos</h3>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>REACT</p>
+                <P>JavaScript</P>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script>
+    const filterContainer = document.querySelector(".gallery__categories");
+    const galleryItems = document.querySelectorAll(".project__card");
+
+    filterContainer.addEventListener("click", (event) => {
+        if (event.target.classList.contains("filter-item")) {
+            filterContainer.querySelector(".active").classList.remove("active");
+            event.target.classList.add("active")
+            const filterValue = event.target.getAttribute("data-filter")
+            galleryItems.forEach(item => {
+                if (item.classList.contains(filterValue) || filterValue === "all") {
+                    item.classList.remove("hide")
+                    item.classList.add("show")
+                } else {
+                    item.classList.remove("show")
+                    item.classList.add("hide")
+                }
+            })
+        }
+    })
+
+    function scrollToSection(sectionId){
+        document.getElementById(sectionId).scrollIntoView({behavior:"smooth"})
+    }
+</script>
+
+</html>

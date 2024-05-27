@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2;
+    padding: 0;
+}
+
+header, footer {
+    border: 3px solid #fffefe3c;
+    background-color: #af6ada;
+    color: #fff;
+    padding: 20px;
+    border: 0px solid #fffefe3c;
+    text-align: center; /* Centra el texto */
+}
+
+.sidebar {
+    background-color: #e8da40;
+    width: 97.5%;
+    padding: 15px;
+    border: 3px solid #fffdfd;
+    margin-top: 2px; /* Ajusta este valor para cambiar la distancia */
+    text-align: center; /* Centra el texto */
+}
+
+main {
+    display: flex;
+    border: -20px solid #fffefe3c;
+}
+
+.widget {
+    margin-top: 10px; /* Ajusta este valor para cambiar la distancia */
+   flex: 1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 0px solid #fffefe3c;
+    background-color: #ffa366; /* Amarillo */
+    text-align: center; /* Centra el texto */
+   
+    height: 150px; /* Altura aumentada */
+    flex-grow: 1; /* Hacer que widget tenga el mismo tamaño que statistics */
+    width: 300px; /* Ajusta este valor para cambiar el ancho */
+    
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #66ccff; /* Azul */
+    border: 10px solid #ffffff;
+    height: 150px; /* Altura aumentada */
+    margin-left: 50px; /* Mueve el cuadro hacia la derecha */
+   
+    text-align: center; /* Centra el texto */
+}
+
+.statistics {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ff6666; /* Rojo */
+    border: 10px solid #fffdfd;
+    margin-left: 50px; /* Mueve el cuadro hacia la derecha */
+    height: 150px; /* Altura aumentada */
+    margin-bottom: -100px; /* Reducir el margen inferior */
+    text-align: center; /* Centra el texto */
+    width: 300px; /* Ajusta este valor para cambiar el ancho */
+}
+
+footer {
+    
+    background-color: #333;
+    color: #fff;
+    border: 3px solid #fffdfd;
+    margin-bottom: 50px; /* Ajusta este valor para cambiar la distancia */
+}
+
+/* Media queries para diseño responsivo */
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: auto; /* Cambia a una columna en dispositivos móviles */
+    }
+}
